@@ -1,0 +1,23 @@
+1 - O que é trasnformada de Fourier?
+A Transformada de Fourier é uma técnica matemática que nos permite
+ analisar um sinal no domínio da frequência. Ela transforma um sinal 
+ do domínio do tempo em um sinal no domínio da frequência, mostrando 
+ as diferentes frequências que compõem o sinal original. Essa técnica 
+ é amplamente utilizada em processamento de sinais, comunicações, 
+ processamento de imagens, entre outras áreas da engenharia e ciência.
+ A Transformada de Fourier é uma técnica matemática que nos permite 
+ analisar um sinal no domínio da frequência. Ela transforma um sinal 
+ do domínio do tempo em um sinal no domínio da frequência, mostrando 
+ as diferentes frequências que compõem o sinal original. Essa técnica 
+ é amplamente utilizada em processamento de sinais, comunicações,
+  processamento de imagens, entre outras áreas da engenharia e ciência.
+  
+2 - Porque usamos frequência para representar o sinal?
+
+3 - O que é o espectro de frequência?
+
+4 - O que é a magnitude em transformada de Fourier?
+
+5 - Funções básicas de Numpy
+
+6 - 

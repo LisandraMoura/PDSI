@@ -20,4 +20,25 @@ A Transformada de Fourier é uma técnica matemática que nos permite
 
 5 - Funções básicas de Numpy
 
-6 - 
+6 -  Teorema da amostragem e Interpolação
+
+Se um sistema recolhe uniformemente amostras de um sinal analógico a uma taxa que excede a 
+frequência mais alta do sinal por pelo menos um factor de dois, o sinal analógico original 
+pode ser perfeitamente recuperado a partir dos valores discretos produzidos pela amostragem.
+
+Jean-Baptiste Joseph Fourier desenvolveu um teorema muito interessante e curioso. O teorema 
+mostra que toda forma de onda periódica pode ser decomposta em ondas senoidais, com frequências 
+que são múltiplos inteiros da frequência fundamental da forma de onda original. Essas senóides são 
+chamadas de harmônicas. São harmônicas pares, se os multiplicadores da frequência forem pares e 
+harmônicas ímpares para os multiplicadores ímpares.
+
+Considerando que, pelo teorema de Fourier, qualquer sinal periódico pode ser decomposto numa somatória 
+de suas harmônicas, seria útil de se ter uma ferramenta que faça isso de forma direta. A transformada 
+de Fourier faz isso. É uma operação matemática que, quando aplicada a um sinal qualquer, que está no 
+domínio do tempo, o transforma  numa representação desse sinal no domínio das frequências, onde são 
+representadas as frequências resultantes dessa transformação, suas respectivas fases e as amplitudes 
+que compõem esse sinal. 
+
+7 - Taxa Nyquist
+Para uma resconstrução perfeita do sinal precisamos seguir a formula f_amostragem >= 2.f_sinal.
+Abaixo disso não temos os ciclos sigmoides.
